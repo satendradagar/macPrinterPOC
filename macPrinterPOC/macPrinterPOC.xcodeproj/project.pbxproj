@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A8AB392244AEEE300B78994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8AB391244AEEE300B78994 /* AppDelegate.swift */; };
+		9A8AB394244AEEE300B78994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8AB393244AEEE300B78994 /* ViewController.swift */; };
+		9A8AB396244AEEE400B78994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8AB395244AEEE400B78994 /* Assets.xcassets */; };
+		9A8AB399244AEEE400B78994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8AB397244AEEE400B78994 /* Main.storyboard */; };
+		9A8AB3A5244AEEE400B78994 /* macPrinterPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8AB3A4244AEEE400B78994 /* macPrinterPOCTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A8AB3A1244AEEE400B78994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8AB386244AEEE300B78994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8AB38D244AEEE300B78994;
+			remoteInfo = macPrinterPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A8AB38E244AEEE300B78994 /* macPrinterPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macPrinterPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8AB391244AEEE300B78994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A8AB393244AEEE300B78994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A8AB395244AEEE400B78994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A8AB398244AEEE400B78994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A8AB39A244AEEE400B78994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8AB39B244AEEE400B78994 /* macPrinterPOC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macPrinterPOC.entitlements; sourceTree = "<group>"; };
+		9A8AB3A0244AEEE400B78994 /* macPrinterPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macPrinterPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8AB3A4244AEEE400B78994 /* macPrinterPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macPrinterPOCTests.swift; sourceTree = "<group>"; };
+		9A8AB3A6244AEEE400B78994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A8AB38B244AEEE300B78994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8AB39D244AEEE400B78994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A8AB385244AEEE300B78994 = {
+			isa = PBXGroup;
+			children = (
+				9A8AB390244AEEE300B78994 /* macPrinterPOC */,
+				9A8AB3A3244AEEE400B78994 /* macPrinterPOCTests */,
+				9A8AB38F244AEEE300B78994 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A8AB38F244AEEE300B78994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A8AB38E244AEEE300B78994 /* macPrinterPOC.app */,
+				9A8AB3A0244AEEE400B78994 /* macPrinterPOCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A8AB390244AEEE300B78994 /* macPrinterPOC */ = {
+			isa = PBXGroup;
+			children = (
+				9A8AB391244AEEE300B78994 /* AppDelegate.swift */,
+				9A8AB393244AEEE300B78994 /* ViewController.swift */,
+				9A8AB395244AEEE400B78994 /* Assets.xcassets */,
+				9A8AB397244AEEE400B78994 /* Main.storyboard */,
+				9A8AB39A244AEEE400B78994 /* Info.plist */,
+				9A8AB39B244AEEE400B78994 /* macPrinterPOC.entitlements */,
+			);
+			path = macPrinterPOC;
+			sourceTree = "<group>";
+		};
+		9A8AB3A3244AEEE400B78994 /* macPrinterPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A8AB3A4244AEEE400B78994 /* macPrinterPOCTests.swift */,
+				9A8AB3A6244AEEE400B78994 /* Info.plist */,
+			);
+			path = macPrinterPOCTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A8AB38D244AEEE300B78994 /* macPrinterPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8AB3A9244AEEE400B78994 /* Build configuration list for PBXNativeTarget "macPrinterPOC" */;
+			buildPhases = (
+				9A8AB38A244AEEE300B78994 /* Sources */,
+				9A8AB38B244AEEE300B78994 /* Frameworks */,
+				9A8AB38C244AEEE300B78994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macPrinterPOC;
+			productName = macPrinterPOC;
+			productReference = 9A8AB38E244AEEE300B78994 /* macPrinterPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A8AB39F244AEEE400B78994 /* macPrinterPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8AB3AC244AEEE400B78994 /* Build configuration list for PBXNativeTarget "macPrinterPOCTests" */;
+			buildPhases = (
+				9A8AB39C244AEEE400B78994 /* Sources */,
+				9A8AB39D244AEEE400B78994 /* Frameworks */,
+				9A8AB39E244AEEE400B78994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A8AB3A2244AEEE400B78994 /* PBXTargetDependency */,
+			);
+			name = macPrinterPOCTests;
+			productName = macPrinterPOCTests;
+			productReference = 9A8AB3A0244AEEE400B78994 /* macPrinterPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A8AB386244AEEE300B78994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "CoreBits Software Solutions Pvt Ltd";
+				TargetAttributes = {
+					9A8AB38D244AEEE300B78994 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9A8AB39F244AEEE400B78994 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9A8AB38D244AEEE300B78994;
+					};
+				};
+			};
+			buildConfigurationList = 9A8AB389244AEEE300B78994 /* Build configuration list for PBXProject "macPrinterPOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A8AB385244AEEE300B78994;
+			productRefGroup = 9A8AB38F244AEEE300B78994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A8AB38D244AEEE300B78994 /* macPrinterPOC */,
+				9A8AB39F244AEEE400B78994 /* macPrinterPOCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A8AB38C244AEEE300B78994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8AB396244AEEE400B78994 /* Assets.xcassets in Resources */,
+				9A8AB399244AEEE400B78994 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8AB39E244AEEE400B78994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A8AB38A244AEEE300B78994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8AB394244AEEE300B78994 /* ViewController.swift in Sources */,
+				9A8AB392244AEEE300B78994 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8AB39C244AEEE400B78994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8AB3A5244AEEE400B78994 /* macPrinterPOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A8AB3A2244AEEE400B78994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8AB38D244AEEE300B78994 /* macPrinterPOC */;
+			targetProxy = 9A8AB3A1244AEEE400B78994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A8AB397244AEEE400B78994 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8AB398244AEEE400B78994 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A8AB3A7244AEEE400B78994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A8AB3A8244AEEE400B78994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9A8AB3AA244AEEE400B78994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macPrinterPOC/macPrinterPOC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X6FQ433AWK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = macPrinterPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.corebitss.macPrinterPOC.macPrinterPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9A8AB3AB244AEEE400B78994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macPrinterPOC/macPrinterPOC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X6FQ433AWK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = macPrinterPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.corebitss.macPrinterPOC.macPrinterPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9A8AB3AD244AEEE400B78994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X6FQ433AWK;
+				INFOPLIST_FILE = macPrinterPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.corebitss.macPrinterPOC.macPrinterPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macPrinterPOC.app/Contents/MacOS/macPrinterPOC";
+			};
+			name = Debug;
+		};
+		9A8AB3AE244AEEE400B78994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X6FQ433AWK;
+				INFOPLIST_FILE = macPrinterPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.corebitss.macPrinterPOC.macPrinterPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macPrinterPOC.app/Contents/MacOS/macPrinterPOC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A8AB389244AEEE300B78994 /* Build configuration list for PBXProject "macPrinterPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8AB3A7244AEEE400B78994 /* Debug */,
+				9A8AB3A8244AEEE400B78994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8AB3A9244AEEE400B78994 /* Build configuration list for PBXNativeTarget "macPrinterPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8AB3AA244AEEE400B78994 /* Debug */,
+				9A8AB3AB244AEEE400B78994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8AB3AC244AEEE400B78994 /* Build configuration list for PBXNativeTarget "macPrinterPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8AB3AD244AEEE400B78994 /* Debug */,
+				9A8AB3AE244AEEE400B78994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A8AB386244AEEE300B78994 /* Project object */;
+}
