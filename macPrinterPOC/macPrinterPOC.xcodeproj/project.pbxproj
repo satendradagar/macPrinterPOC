@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A472374244C7C7700F0698B /* CanonSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A472373244C7C7700F0698B /* CanonSettings.swift */; };
+		9A472376244C7F8900F0698B /* PrinterUtilies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A472375244C7F8900F0698B /* PrinterUtilies.swift */; };
+		9A6EA95C244CA9E900CB2417 /* CanonSettingsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6EA95B244CA9E900CB2417 /* CanonSettingsConfigurator.swift */; };
+		9A6EA95E244CAEB600CB2417 /* NSPrintInfoCustomized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6EA95D244CAEB600CB2417 /* NSPrintInfoCustomized.swift */; };
+		9A6EA960244CB14300CB2417 /* PrinterSettingsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6EA95F244CB14300CB2417 /* PrinterSettingsConstants.swift */; };
 		9A8AB392244AEEE300B78994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8AB391244AEEE300B78994 /* AppDelegate.swift */; };
 		9A8AB394244AEEE300B78994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8AB393244AEEE300B78994 /* ViewController.swift */; };
 		9A8AB396244AEEE400B78994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8AB395244AEEE400B78994 /* Assets.xcassets */; };
 		9A8AB399244AEEE400B78994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8AB397244AEEE400B78994 /* Main.storyboard */; };
 		9A8AB3A5244AEEE400B78994 /* macPrinterPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8AB3A4244AEEE400B78994 /* macPrinterPOCTests.swift */; };
+		9A8AB3B0244AEFE600B78994 /* PdfFilePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8AB3AF244AEFE600B78994 /* PdfFilePrinter.swift */; };
+		9A8AB3B2244AF1B600B78994 /* FilePrintControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8AB3B1244AF1B600B78994 /* FilePrintControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A2A46E9244B529900B18C92 /* RequirementDetails.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = RequirementDetails.rtf; sourceTree = "<group>"; };
+		9A472373244C7C7700F0698B /* CanonSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonSettings.swift; sourceTree = "<group>"; };
+		9A472375244C7F8900F0698B /* PrinterUtilies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterUtilies.swift; sourceTree = "<group>"; };
+		9A6EA95B244CA9E900CB2417 /* CanonSettingsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonSettingsConfigurator.swift; sourceTree = "<group>"; };
+		9A6EA95D244CAEB600CB2417 /* NSPrintInfoCustomized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPrintInfoCustomized.swift; sourceTree = "<group>"; };
+		9A6EA95F244CB14300CB2417 /* PrinterSettingsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterSettingsConstants.swift; sourceTree = "<group>"; };
 		9A8AB38E244AEEE300B78994 /* macPrinterPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macPrinterPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8AB391244AEEE300B78994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A8AB393244AEEE300B78994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +48,8 @@
 		9A8AB3A0244AEEE400B78994 /* macPrinterPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macPrinterPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8AB3A4244AEEE400B78994 /* macPrinterPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macPrinterPOCTests.swift; sourceTree = "<group>"; };
 		9A8AB3A6244AEEE400B78994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8AB3AF244AEFE600B78994 /* PdfFilePrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfFilePrinter.swift; sourceTree = "<group>"; };
+		9A8AB3B1244AF1B600B78994 /* FilePrintControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePrintControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,12 @@
 			children = (
 				9A8AB391244AEEE300B78994 /* AppDelegate.swift */,
 				9A8AB393244AEEE300B78994 /* ViewController.swift */,
+				9A8AB3AF244AEFE600B78994 /* PdfFilePrinter.swift */,
+				9A472373244C7C7700F0698B /* CanonSettings.swift */,
+				9A6EA95F244CB14300CB2417 /* PrinterSettingsConstants.swift */,
+				9A472375244C7F8900F0698B /* PrinterUtilies.swift */,
+				9A6EA95B244CA9E900CB2417 /* CanonSettingsConfigurator.swift */,
+				9A6EA95D244CAEB600CB2417 /* NSPrintInfoCustomized.swift */,
 				9A8AB395244AEEE400B78994 /* Assets.xcassets */,
 				9A8AB397244AEEE400B78994 /* Main.storyboard */,
 				9A8AB39A244AEEE400B78994 /* Info.plist */,
@@ -90,7 +111,9 @@
 			isa = PBXGroup;
 			children = (
 				9A8AB3A4244AEEE400B78994 /* macPrinterPOCTests.swift */,
+				9A8AB3B1244AF1B600B78994 /* FilePrintControllerTests.swift */,
 				9A8AB3A6244AEEE400B78994 /* Info.plist */,
+				9A2A46E9244B529900B18C92 /* RequirementDetails.rtf */,
 			);
 			path = macPrinterPOCTests;
 			sourceTree = "<group>";
@@ -195,7 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A472376244C7F8900F0698B /* PrinterUtilies.swift in Sources */,
 				9A8AB394244AEEE300B78994 /* ViewController.swift in Sources */,
+				9A8AB3B0244AEFE600B78994 /* PdfFilePrinter.swift in Sources */,
+				9A6EA960244CB14300CB2417 /* PrinterSettingsConstants.swift in Sources */,
+				9A6EA95E244CAEB600CB2417 /* NSPrintInfoCustomized.swift in Sources */,
+				9A6EA95C244CA9E900CB2417 /* CanonSettingsConfigurator.swift in Sources */,
+				9A472374244C7C7700F0698B /* CanonSettings.swift in Sources */,
 				9A8AB392244AEEE300B78994 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8AB3A5244AEEE400B78994 /* macPrinterPOCTests.swift in Sources */,
+				9A8AB3B2244AF1B600B78994 /* FilePrintControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
