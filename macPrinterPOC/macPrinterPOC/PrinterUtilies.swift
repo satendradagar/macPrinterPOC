@@ -21,7 +21,6 @@ class PrinterUtilities {
                     findMime = mime as String
                     break
                 }
-                
             }
         }
         return findMime
