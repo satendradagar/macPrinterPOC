@@ -13,7 +13,7 @@ public enum PageNameConstants:String{
 }
 
 public enum PageScale: CGFloat{
-    case hundred = 100.0
+    case hundred = 1.0
 }
 
 
