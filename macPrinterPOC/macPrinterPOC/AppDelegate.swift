@@ -10,7 +10,7 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
+    var preferencesWindowController:PreferencesWindowController?
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
@@ -22,5 +22,24 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
 
+    // MARK: - Core Data Saving and Undo support
+
+    @IBAction func saveAction(_ sender: AnyObject?) {
+        CoreDataManager.shared.saveAction(sender)
+    }
+
+    func windowWillReturnUndoManager(window: NSWindow) -> UndoManager? {
+        return CoreDataManager.shared.windowWillReturnUndoManager(window: window)
+    }
+
+    func applicationShouldTerminate(_ sender: NSApplication) -> NSApplication.TerminateReply {
+        return CoreDataManager.shared.applicationShouldTerminate()
+    }
+
+    @IBAction func showPreferences(_ sender:AnyObject?){
+        preferencesWindowController = PreferencesWindowController.instance()
+        preferencesWindowController?.showWindow(sender)
+        preferencesWindowController?.window?.makeKeyAndOrderFront(sender)
+    }
 }
 
