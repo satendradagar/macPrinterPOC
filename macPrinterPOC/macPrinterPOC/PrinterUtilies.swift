@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import AppKit
 
 class PrinterUtilities {
     
@@ -25,4 +26,19 @@ class PrinterUtilities {
         }
         return findMime
     }
+}
+
+func showErrorMessage(message:String)  {
+    
+    let question = NSLocalizedString("Mac Printer Error", comment: "Mac Printer Error")
+    let info = NSLocalizedString(message, comment: message);
+    let quitButton = NSLocalizedString("OK", comment: "OK")
+//    let cancelButton = NSLocalizedString("Cancel", comment: "Cancel button title")
+    let alert = NSAlert()
+    alert.messageText = question
+    alert.informativeText = info
+    alert.addButton(withTitle: quitButton)
+//    alert.addButton(withTitle: cancelButton)
+    
+    _ = alert.runModal()
 }
