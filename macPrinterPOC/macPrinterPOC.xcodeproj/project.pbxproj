@@ -19,6 +19,27 @@
 		9A8AB3A5244AEEE400B78994 /* macPrinterPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8AB3A4244AEEE400B78994 /* macPrinterPOCTests.swift */; };
 		9A8AB3B0244AEFE600B78994 /* PdfFilePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8AB3AF244AEFE600B78994 /* PdfFilePrinter.swift */; };
 		9A8AB3B2244AF1B600B78994 /* FilePrintControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8AB3B1244AF1B600B78994 /* FilePrintControllerTests.swift */; };
+		C4062D7524693160009AB8DA /* PrinterObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4062D7324693160009AB8DA /* PrinterObject+CoreDataClass.swift */; };
+		C4062D7624693160009AB8DA /* PrinterObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4062D7424693160009AB8DA /* PrinterObject+CoreDataProperties.swift */; };
+		C42C27682467FF8A00F1F67F /* PrinterListData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C42C27662467FF8A00F1F67F /* PrinterListData.xcdatamodeld */; };
+		C42C276A24685B0400F1F67F /* PMPrinterObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C276924685B0400F1F67F /* PMPrinterObj.swift */; };
+		C4328A312466B29E000584D9 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4328A2F2466B29E000584D9 /* PreferencesViewController.swift */; };
+		C43D9A6624655B4C008402DC /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D9A6524655B4C008402DC /* CoreDataManager.swift */; };
+		C43D9A722465721F008402DC /* SeagueBetweenEmbedded.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D9A692465721F008402DC /* SeagueBetweenEmbedded.swift */; };
+		C43D9A732465721F008402DC /* BackForwardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D9A6A2465721F008402DC /* BackForwardViewController.swift */; };
+		C43D9A742465721F008402DC /* ContentManagerViewControllerHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D9A6B2465721F008402DC /* ContentManagerViewControllerHolder.swift */; };
+		C43D9A752465721F008402DC /* ContentManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D9A6C2465721F008402DC /* ContentManagerViewController.swift */; };
+		C43D9A762465721F008402DC /* SeagueAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D9A6D2465721F008402DC /* SeagueAnimator.swift */; };
+		C43D9A772465721F008402DC /* NSWindowController+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D9A6E2465721F008402DC /* NSWindowController+Utilities.swift */; };
+		C43D9A782465721F008402DC /* NSAlert+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D9A6F2465721F008402DC /* NSAlert+Utilities.swift */; };
+		C43D9A792465721F008402DC /* NSStoryboard+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D9A702465721F008402DC /* NSStoryboard+Utilities.swift */; };
+		C43D9A7A2465721F008402DC /* NSViewController+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D9A712465721F008402DC /* NSViewController+Utilities.swift */; };
+		C43D9A7E24657C82008402DC /* AddPrinterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D9A7D24657C82008402DC /* AddPrinterController.swift */; };
+		C43D9A8024657CA3008402DC /* AddPrinterController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43D9A7F24657CA3008402DC /* AddPrinterController.storyboard */; };
+		C47488C12465CB770001FFB6 /* PreferencesWindowController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47488C02465CB770001FFB6 /* PreferencesWindowController.storyboard */; };
+		C4A03E152469B71500B951D2 /* PrinterTypeSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A03E142469B71500B951D2 /* PrinterTypeSource.swift */; };
+		C4A8BA252467F57300D2D4FA /* PMPrinterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A8BA242467F57300D2D4FA /* PMPrinterDataSource.swift */; };
+		C4B43EB12464668800533696 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B43EAF2464668800533696 /* PreferencesWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +71,27 @@
 		9A8AB3A6244AEEE400B78994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A8AB3AF244AEFE600B78994 /* PdfFilePrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfFilePrinter.swift; sourceTree = "<group>"; };
 		9A8AB3B1244AF1B600B78994 /* FilePrintControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePrintControllerTests.swift; sourceTree = "<group>"; };
+		C4062D7324693160009AB8DA /* PrinterObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrinterObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C4062D7424693160009AB8DA /* PrinterObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrinterObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C42C27672467FF8A00F1F67F /* PrinterListData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrinterListData.xcdatamodel; sourceTree = "<group>"; };
+		C42C276924685B0400F1F67F /* PMPrinterObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMPrinterObj.swift; sourceTree = "<group>"; };
+		C4328A2F2466B29E000584D9 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		C43D9A6524655B4C008402DC /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		C43D9A692465721F008402DC /* SeagueBetweenEmbedded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeagueBetweenEmbedded.swift; sourceTree = "<group>"; };
+		C43D9A6A2465721F008402DC /* BackForwardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackForwardViewController.swift; sourceTree = "<group>"; };
+		C43D9A6B2465721F008402DC /* ContentManagerViewControllerHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentManagerViewControllerHolder.swift; sourceTree = "<group>"; };
+		C43D9A6C2465721F008402DC /* ContentManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentManagerViewController.swift; sourceTree = "<group>"; };
+		C43D9A6D2465721F008402DC /* SeagueAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeagueAnimator.swift; sourceTree = "<group>"; };
+		C43D9A6E2465721F008402DC /* NSWindowController+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSWindowController+Utilities.swift"; sourceTree = "<group>"; };
+		C43D9A6F2465721F008402DC /* NSAlert+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAlert+Utilities.swift"; sourceTree = "<group>"; };
+		C43D9A702465721F008402DC /* NSStoryboard+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSStoryboard+Utilities.swift"; sourceTree = "<group>"; };
+		C43D9A712465721F008402DC /* NSViewController+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSViewController+Utilities.swift"; sourceTree = "<group>"; };
+		C43D9A7D24657C82008402DC /* AddPrinterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPrinterController.swift; sourceTree = "<group>"; };
+		C43D9A7F24657CA3008402DC /* AddPrinterController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddPrinterController.storyboard; sourceTree = "<group>"; };
+		C47488C02465CB770001FFB6 /* PreferencesWindowController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PreferencesWindowController.storyboard; sourceTree = "<group>"; };
+		C4A03E142469B71500B951D2 /* PrinterTypeSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterTypeSource.swift; sourceTree = "<group>"; };
+		C4A8BA242467F57300D2D4FA /* PMPrinterDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMPrinterDataSource.swift; sourceTree = "<group>"; };
+		C4B43EAF2464668800533696 /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +133,11 @@
 		9A8AB390244AEEE300B78994 /* macPrinterPOC */ = {
 			isa = PBXGroup;
 			children = (
+				C4A03E132469B6FF00B951D2 /* PrinterTypeSource */,
+				C4A8BA232467F4BD00D2D4FA /* PMPrinterDataSource */,
+				C43D9A682465721F008402DC /* Categories and Utilities */,
+				C43D9A26246549BC008402DC /* CoreData */,
+				C4B43EAA2464200400533696 /* Preferences */,
 				9A8AB391244AEEE300B78994 /* AppDelegate.swift */,
 				9A8AB393244AEEE300B78994 /* ViewController.swift */,
 				9A8AB3AF244AEFE600B78994 /* PdfFilePrinter.swift */,
@@ -116,6 +163,70 @@
 				9A2A46E9244B529900B18C92 /* RequirementDetails.rtf */,
 			);
 			path = macPrinterPOCTests;
+			sourceTree = "<group>";
+		};
+		C4328A372466BF9E000584D9 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				C4062D7324693160009AB8DA /* PrinterObject+CoreDataClass.swift */,
+				C4062D7424693160009AB8DA /* PrinterObject+CoreDataProperties.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		C43D9A26246549BC008402DC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C4328A372466BF9E000584D9 /* Entities */,
+				C43D9A6524655B4C008402DC /* CoreDataManager.swift */,
+				C42C27662467FF8A00F1F67F /* PrinterListData.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		C43D9A682465721F008402DC /* Categories and Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C43D9A692465721F008402DC /* SeagueBetweenEmbedded.swift */,
+				C43D9A6A2465721F008402DC /* BackForwardViewController.swift */,
+				C43D9A6B2465721F008402DC /* ContentManagerViewControllerHolder.swift */,
+				C43D9A6C2465721F008402DC /* ContentManagerViewController.swift */,
+				C43D9A6D2465721F008402DC /* SeagueAnimator.swift */,
+				C43D9A6E2465721F008402DC /* NSWindowController+Utilities.swift */,
+				C43D9A6F2465721F008402DC /* NSAlert+Utilities.swift */,
+				C43D9A702465721F008402DC /* NSStoryboard+Utilities.swift */,
+				C43D9A712465721F008402DC /* NSViewController+Utilities.swift */,
+			);
+			path = "Categories and Utilities";
+			sourceTree = "<group>";
+		};
+		C4A03E132469B6FF00B951D2 /* PrinterTypeSource */ = {
+			isa = PBXGroup;
+			children = (
+				C4A03E142469B71500B951D2 /* PrinterTypeSource.swift */,
+			);
+			path = PrinterTypeSource;
+			sourceTree = "<group>";
+		};
+		C4A8BA232467F4BD00D2D4FA /* PMPrinterDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				C4A8BA242467F57300D2D4FA /* PMPrinterDataSource.swift */,
+				C42C276924685B0400F1F67F /* PMPrinterObj.swift */,
+			);
+			path = PMPrinterDataSource;
+			sourceTree = "<group>";
+		};
+		C4B43EAA2464200400533696 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				C4B43EAF2464668800533696 /* PreferencesWindowController.swift */,
+				C4328A2F2466B29E000584D9 /* PreferencesViewController.swift */,
+				C47488C02465CB770001FFB6 /* PreferencesWindowController.storyboard */,
+				C43D9A7D24657C82008402DC /* AddPrinterController.swift */,
+				C43D9A7F24657CA3008402DC /* AddPrinterController.storyboard */,
+			);
+			path = Preferences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +310,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47488C12465CB770001FFB6 /* PreferencesWindowController.storyboard in Resources */,
 				9A8AB396244AEEE400B78994 /* Assets.xcassets in Resources */,
 				9A8AB399244AEEE400B78994 /* Main.storyboard in Resources */,
+				C43D9A8024657CA3008402DC /* AddPrinterController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,14 +331,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43D9A7E24657C82008402DC /* AddPrinterController.swift in Sources */,
+				C42C276A24685B0400F1F67F /* PMPrinterObj.swift in Sources */,
 				9A472376244C7F8900F0698B /* PrinterUtilies.swift in Sources */,
+				C4A03E152469B71500B951D2 /* PrinterTypeSource.swift in Sources */,
 				9A8AB394244AEEE300B78994 /* ViewController.swift in Sources */,
+				C43D9A732465721F008402DC /* BackForwardViewController.swift in Sources */,
 				9A8AB3B0244AEFE600B78994 /* PdfFilePrinter.swift in Sources */,
+				C43D9A762465721F008402DC /* SeagueAnimator.swift in Sources */,
+				C43D9A792465721F008402DC /* NSStoryboard+Utilities.swift in Sources */,
 				9A6EA960244CB14300CB2417 /* PrinterSettingsConstants.swift in Sources */,
+				C4062D7524693160009AB8DA /* PrinterObject+CoreDataClass.swift in Sources */,
+				C42C27682467FF8A00F1F67F /* PrinterListData.xcdatamodeld in Sources */,
+				C43D9A7A2465721F008402DC /* NSViewController+Utilities.swift in Sources */,
+				C43D9A742465721F008402DC /* ContentManagerViewControllerHolder.swift in Sources */,
+				C43D9A772465721F008402DC /* NSWindowController+Utilities.swift in Sources */,
 				9A6EA95E244CAEB600CB2417 /* NSPrintInfoCustomized.swift in Sources */,
 				9A6EA95C244CA9E900CB2417 /* CanonSettingsConfigurator.swift in Sources */,
+				C43D9A752465721F008402DC /* ContentManagerViewController.swift in Sources */,
+				C4A8BA252467F57300D2D4FA /* PMPrinterDataSource.swift in Sources */,
+				C4B43EB12464668800533696 /* PreferencesWindowController.swift in Sources */,
+				C43D9A722465721F008402DC /* SeagueBetweenEmbedded.swift in Sources */,
 				9A472374244C7C7700F0698B /* CanonSettings.swift in Sources */,
 				9A8AB392244AEEE300B78994 /* AppDelegate.swift in Sources */,
+				C43D9A782465721F008402DC /* NSAlert+Utilities.swift in Sources */,
+				C4062D7624693160009AB8DA /* PrinterObject+CoreDataProperties.swift in Sources */,
+				C43D9A6624655B4C008402DC /* CoreDataManager.swift in Sources */,
+				C4328A312466B29E000584D9 /* PreferencesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,9 +510,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = macPrinterPOC/macPrinterPOC.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = X6FQ433AWK;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = macPrinterPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -389,6 +521,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.corebitss.macPrinterPOC.macPrinterPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -398,9 +531,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = macPrinterPOC/macPrinterPOC.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = X6FQ433AWK;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = macPrinterPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -409,6 +542,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.corebitss.macPrinterPOC.macPrinterPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -488,6 +622,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C42C27662467FF8A00F1F67F /* PrinterListData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C42C27672467FF8A00F1F67F /* PrinterListData.xcdatamodel */,
+			);
+			currentVersion = C42C27672467FF8A00F1F67F /* PrinterListData.xcdatamodel */;
+			path = PrinterListData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9A8AB386244AEEE300B78994 /* Project object */;
 }
