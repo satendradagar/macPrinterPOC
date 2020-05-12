@@ -44,7 +44,7 @@ class PreferencesViewController: NSViewController {
     
     func avaialblePrinterExcAlreadyAdded() -> [PMPrinterObj] {
         let printers = PMPrinterDataSource.availablePrinterObjects()
-        return printers
+//        return printers
         let filtered = printers.filter { (sourcePrinter) -> Bool in
             
             var isMatched = false

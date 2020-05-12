@@ -12,6 +12,16 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(NSPrinter.printerNames)
+        print(NSPrinter.printerTypes)
+//        if let printer = NSPrinter.init(name: NSPrinter.printerNames.first ?? ""){
+//            print(printer.attributeKeys)
+//            print(printer.deviceDescription)
+//            print(printer.description)
+//            print(printer)
+//        }
+        let printers = PMPrinterDataSource.availablePrinterObjects()
+        print(printers.description)
         self.openFilePicker()
         // Do any additional setup after loading the view.
     }
@@ -37,7 +47,6 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
 
 }
 
